@@ -30,6 +30,6 @@ public abstract class CertKeycloakAccessRules {
    * @return '@authenticationHandler.allowReadAccess(authentication, request)'
    */
   public static String allowReadWriteAccess() {
-    return "@authenticationHandler.allowReadAccess(authentication, request)";
+    return "@authenticationHandler.allowReadWriteAccess(authentication, request)";
   }
 }
